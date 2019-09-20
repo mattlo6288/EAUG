@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+    <html lang="en">  
+    <head>
+        <title>Exceedingly Average  Un-epic Games</title>
+         <link rel="shortcut icon" href="Beta%20Themes.jpg">
+        <meta charset="utf-8">
+        <meta name="description" content="Exceedingly Average  Un-epic Games ">
+        <meta name="keywords" content="Game website, Video games, Gamers">
+        <meta name="author" content="Matt Lomas">
+        <link href="main.css" rel="stylesheet" type="text/css">
+        <link href="https://fonts.googleapis.com/css?family=Press+Start+2P&display=swap" rel="stylesheet">
+     </head>
+    <body id=Cbody>
+        <div class=Cimg>
+        <img src="Banner3.png" id="img">
+        <div id="navbar">
+            <a href="index.html" id="home">Home</a>
+            <a href="about.html" id="news">About</a>
+            <a href="newgames.html" id="contact">Upcoming Games</a>
+             <div class="dropdown">
+            <button class="dropbtn">Games</button>
+            <div class="dropdown-content">
+                <a href="racerdriver.html" id="link1">Racer Driver</a>
+                <a href="game2.html" id="link2" >Hallway Shooter</a>
+                <a href="game3.html" id="link3">Weird Horse</a>
+            </div>
+        </div>
+        </div>
+        
+        
+        
+        <h1 id="racer">Hallway Shooter</h1>
+        
+        <img src="HallwayShooterBanner.gif" id="drivban">
+        
+        <div id="work">
+            
+            
+            
+            <h2 id=headings>Introduction</h2>
+            <img src=Intro.PNG id=screen1>
+            <br>
+            <br>
+            <p id="hi">Hallway Shooter is a revolutionary game decades ahead of its time. This game is a 3D game using the common program Scratch. It is designed to be a FPS or a First-Person Shooter in which you travel a series of hallways whilst shooting enemies know only as THE ORBS.</p>
+            
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            
+            
+            
+            
+            <h2 id=headings>Gameplay</h2>
+            <img src=Gameplay.PNG id="image2">
+            <br>
+            <br>
+            <p id="hi">Hallway Shooter like any other FPS uses the keys WASD to navigate and the mouse to shoot. The actual gameplay is comprised of navigating the 4x4 square to find the markers and shooting the dreaded ORBS THAT KILLED YOUR FATHER. You also have a clip of 8 bullets for taking these enemys down.</p>
+            
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            
+            
+            <h2 id=headings>Graphics</h2>
+            <img src=Graphics.gif id="screen1">
+            <br>
+            <br>
+            <p id="work">The Hallway Shooter series of games has always been known for its exsquisite physics engine and also its ALTRA high quality 3D visuals. </p>
+            
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <h2 id=headings>The Future Of Hallway Shooter</h2>
+            
+            <p id="hi">We plan to expand the franchise across the globe.
+            First we will produce a free hallway shooter mobile game. Second we will partner with FORTNITE to be "lit". Using our partnership with FORTNITE we shall produce merchindice for our game, then we shall purchase disney. Then produce a Hallway Shooter film. Then using its revenue we shall purchase the sun, then we shall tax all useage of solar farms. Then we purchase earth and charge rent for being on it. With this revenue we shall transform the entire earth into a replica of Hallway Shooter.</p>
+            
+        </div>
+        </div> 
+        <h2 id="headings">Play here now!!</h2>
+        <br>
+    <iframe src="https://scratch.mit.edu/projects/330264239/embed" allowtransparency="true" width="485" height="402" frameborder="0" scrolling="no" allowfullscreen id="games"></iframe>
+        <br>
+        <br>
+<script>
+
+ var slideIndex = 0;
+showSlides();
+
+function showSlides() {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("dot");
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";  
+  }
+  slideIndex++;
+  if (slideIndex > slides.length) {slideIndex = 1}    
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " active";
+  setTimeout(showSlides, 7000); // Change image every 2 seconds
+}
+
+</script>
+    </body>
+    
+    
+</html>

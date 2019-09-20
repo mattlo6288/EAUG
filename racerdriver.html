@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+    <html lang="en">  
+    <head>
+        <link href="https://fonts.googleapis.com/css?family=Press+Start+2P&display=swap" rel="stylesheet">
+        <title>Exceedingly Average  Un-epic Games</title>
+        <meta charset="utf-8">
+        <meta name="description" content="Exceedingly Average  Un-epic Games ">
+        <meta name="keywords" content="Game website, Video games, Gamers">
+        <meta name="author" content="Matt Lomas">
+        <link href="main.css" rel="stylesheet" type="text/css">
+         <link rel="shortcut icon" href="Beta%20Themes.jpg">
+     </head>
+    <body>
+        <img src="Banner3.png" id="img">
+        <div id="navbar">
+            <a href="index.html" id="home">Home</a>
+            <a href="about.html" id="news">About</a>
+            <a href="newgames.html" id="contact">Upcoming Games</a>
+             <div class="dropdown">
+            <button class="dropbtn">Games</button>
+            <div class="dropdown-content">
+                <a href="racerdriver.html" id="link1">Racer Driver</a>
+                <a href="game2.html" id="link2" >Hallway Shooter</a>
+                <a href="game3.html" id="link3">Weird Horse</a>
+            </div>
+        </div>
+        </div>
+         <h1 id="racer">Racer Driver</h1>
+        <br>
+        <img src="trash.gif" id="drivban">
+        <div id="work">
+      
+        <br>
+        <br>
+            <h2 id="headings">Introduction</h2>
+        <img src="screenshot1.PNG" id="screen1">
+        <br>
+        <br>
+            <p id="hi">Racer driver is a multi-player skill-based racing game. In racer driver players can take on AI, other players in two player mode or try to beat their best times in single player. Cars have realistic physics with working speedometers. The AIs have different levels of difficulty so your skill level will always be challenged.</p>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+       
+            
+            <h2 id="headings">The future of Racer Driver</h2>
+        <img src="updates.png" id="image2">
+        <br>
+        <br>
+        <p id="hi">Many future updates are planned for racer driver. These include new cars with different looks and different speed and handling characteristics. Along with new Tracks all different lengths types of turns aesthetics and handling characteristics. Later updates will include new ways to drive and control your vehicle. </p>
+        
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <h2 id="headings">About Scratch</h2>
+        <img src="scratch.png" id="screen1">
+        <br>
+        <br>
+        <p id="hi">Racer driver is published on the common easy to use programming language Scratch. This allows the player to make modifications to there game freely at will. This game is a great way to learn how to code while having fun while playing. Racer driver will be available to be downloaded at www.fakeurl.com/downloads/racerdriver never.</p>
+        </div>
+        <h2 id="headings">Play here now!!</h2>
+        <br>
+       <iframe src="https://scratch.mit.edu/projects/330263964/embed" allowtransparency="true" width="485" height="402" frameborder="0" scrolling="no" allowfullscreen id="games"></iframe>
+        <br>
+        <br>
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        <script>
+
+
+ var slideIndex = 0;
+showSlides();
+
+function showSlides() {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("dot");
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";  
+  }
+  slideIndex++;
+  if (slideIndex > slides.length) {slideIndex = 1}    
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " active";
+  setTimeout(showSlides, 7000); // Change image every 2 seconds
+}
+
+</script>
+    </body>
+    
+    
+</html>

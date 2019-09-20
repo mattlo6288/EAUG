@@ -1,0 +1,2 @@
+Game1.gif filter=lfs diff=lfs merge=lfs -text
+gametrash.gif filter=lfs diff=lfs merge=lfs -text
